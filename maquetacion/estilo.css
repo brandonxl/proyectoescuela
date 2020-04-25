@@ -1,11 +1,19 @@
 h1{
-	
+	width: 100%;
 	color: #A76CC3;
-	font-size: 35px;
+    font-size: 40px;
+	text-align: center;
+	background: #745454;
 }
 p{
 	font-size: 30px;
 }
 body{
 	background: #BAD9FF;
+}
+a{
+	text-decoration: none;
+}
+b{
+	text-decoration: underline;;
 }
