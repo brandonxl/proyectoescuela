@@ -6,14 +6,14 @@ body{
 	background: #e6e6e6;
 }
 
-header, .main, footer,h1{
+header, .main,h1{
 	
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
 
 header nav{
-	background: #528FD5;
+	background:#528FD5;
 	overflow: hidden;
 }
 h1{
@@ -38,6 +38,25 @@ header nav ul li a{
 }
 
 .main .articles{
-	width: 70%;
+	width: 80%;
 	float: left;
+	background: white;
+}
+
+.main .articles .article {
+	padding: 10px;
+	background: white;
+	margin-bottom: 30px;
+}
+
+
+aside{
+	background: orange;
+	font-size: 20px;
+	padding: 61px;
+}
+
+footer{
+	background: black;
+	color: white;
 }
