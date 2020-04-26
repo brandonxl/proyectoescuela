@@ -49,14 +49,33 @@ header nav ul li a{
 	margin-bottom: 30px;
 }
 
-
+h3{
+	font-size: 20px;
+}
 aside{
 	background: orange;
 	font-size: 20px;
 	padding: 61px;
 }
 
+
 footer{
 	background: black;
 	color: white;
 }
+
+p{
+	font-family: arial;
+	line-height: 25px;
+}
+b{
+	font-size: 20px;
+}
+.uno{
+	font-family: Arial black;
+	font-size: 18px;
+}
+h2{
+	font-family: Big Truck;
+}
+
