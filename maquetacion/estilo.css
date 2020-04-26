@@ -1,19 +1,43 @@
-h1{
-	width: 100%;
-	color: #A76CC3;
-    font-size: 40px;
-	text-align: center;
-	background: #745454;
-}
-p{
-	font-size: 30px;
+*{
+	margin:0;;
+	padding: 0;
 }
 body{
-	background: #BAD9FF;
+	background: #e6e6e6;
 }
-a{
+
+header, .main, footer,h1{
+	
+	width: 80%;
+	margin: auto;
+}
+
+header nav{
+	background: #528FD5;
+	overflow: hidden;
+}
+h1{
+	text-align: center;
+	background: #439A7A;
+	font-size: 45px;
+}
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+float: left;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display: block;
+	color: white;
 	text-decoration: none;
+	font-size: 20px;
 }
-b{
-	text-decoration: underline;;
+
+.main .articles{
+	width: 70%;
+	float: left;
 }
