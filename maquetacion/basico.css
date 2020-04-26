@@ -54,4 +54,10 @@ section ul li a{
 	width: 80%;
 	float: left;
 	background: white;
+	padding: 10px;
 }
+
+h3{
+	font-size: 22px;
+}
+
