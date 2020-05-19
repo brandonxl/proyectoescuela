@@ -1,5 +1,5 @@
 *{
-	margin:0;
+	margin:0;;
 	padding: 0;
 }
 body{
@@ -8,7 +8,7 @@ body{
 
 header, .main,h1{
 	
-	width: 80%;
+	width: 90%;
 	margin: auto;
 }
 
@@ -16,11 +16,13 @@ header nav{
 	background:#528FD5;
 	overflow: hidden;
 }
-
 h1{
 	text-align: center;
 	background: #439A7A;
 	font-size: 45px;
+}
+header nav ul{
+	list-style: none;
 }
 
 header nav ul li{
@@ -35,29 +37,47 @@ header nav ul li a{
 	font-size: 20px;
 }
 
-header nav ul{
-	list-style: none;
-	}
-
-section ul li a{
-	list-style: none;
-}
-
-.main.articles, ul, li,h3,a{
-	list-style: none;
-	text-align: center;
-	line-height: 25px;
-	font-size: 18px
-
-}
 .main .articles{
 	width: 80%;
 	float: left;
 	background: white;
+	padding: 20px;
+}
+
+.main .articles .article {
 	padding: 10px;
+	background: white;
+	margin-bottom: 30px;
 }
 
 h3{
-	font-size: 22px;
+	font-size: 20px;
+}
+
+aside{
+	background: orange;
+	font-size: 20px;
+	padding: 61px;
+ }
+
+
+footer{
+	background: black;
+	color: white;
+}
+
+p{
+	font-family: arial;
+	line-height: 25px;
+}
+b{
+	font-size: 20px;
+}
+.uno{
+	font-family: Arial black;
+	font-size: 18px;
+}
+h2{
+	font-family: Big Truck;
 }
 
