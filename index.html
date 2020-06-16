@@ -1,63 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Oling</title>
-	<link rel="stylesheet" type="text/css" href="maquetacion/inicio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="maquetacion/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Inicio</title>
 </head>
 <body>
-<h1>Bienvenidos a Oring</h1>
-<header>
-	
-	<nav>
-		<ul>
-			<li><a href="basico.html">Nivel basico</a> </li>
-	        <li><a href="Articulos.html">Nivel intermedio</a></li>
-	        <li><a href="Verbos.hmtl">Nivel avanzado</a></li>
-		</ul>
-	</nav>
+    <section id="general">
+        
+        <header id="cabecera">
+            <div id="logo">
+            <h1>Oling </h1>
+        </div>
 
-</header>
-
-
-<section class="main">
-	<section class="articles">
-		<article>
-		
-			<p class="uno">Oling es una pagina que esta diseñada para el aprendizaje de el Ingles,cuenta con 3 niveles de practica
-				<strong>(Basico Intermedio, Avanzado)</strong> nuestro objetivo es que el usario al terminar el contenido de la pagina pueda tener los conocimientos para poder hablar de una buena manera el Ingles</p>
-		</article>
-		<br/>
-		<h3>Nivel basico</h3>
-		<article>
-			<p class="dos">El nivel basico cuenta 7 bloques de estudio donde prodras aprender los cimientos basicos de el ingles al terminar el contedido de el curso basico, podras avanzar de una buena manera a el nivel intermedio doonde seguiras puliendo tus habilidades en el Ingles.</p>
-		</article>
-		<br/>
-		<h3>Nivel intermedio</h3>
-		<article>
-			<p class="tres">
-				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-			</p>
-		</article>
-		<article>
-			<br/>
-			<h3>Nivel avanzado</h3>
-			<p>
-				It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-			</p>
-		</article>
-	</section>
-	
-	<aside>
-		<h4>Sabias que</h4>
-		<br/>
-		Estados Unidos es el país que cuenta con mayor número de hablantes de inglés. En segundo lugar se encuentra la India, siguiéndole Pakistán y Nigeria. Reino Unido queda relegado al quinto puesto
-	</aside>
-<footer>
-	cecytej jalisco - 2020
-</footer>
-	
+            <div class="clear"> </div>
+         
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">seccion 1</a></li>
+                    <li><a href="#">Seccion 2</a></li>
+                    <li><a href="#">Seccion 3</a></li>
+                    <li><a href="#">Seccion 4</a></li>
+                </ul>
+            </nav>
+        </header>
+          <div class="clear"></div>
+        <article id="posicion">
+            <div>
+              <h2>Por que oling?</h2>
+              <p>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
+              </p>
+            </div>
+        </article>
 
 
+        
+         <div id="usuario">
+           <p>
+            
+           </p>
+         </div>
+
+            <aside id="registro-de-sesion">
+          <div class="contenedor">
+            <div class="toggle">
+            
+          </div>
+            <div class="formulario" >
+                <h3>Crear Cuenta</h3>
+                <form>
+                    <div class="form-group">
+                    <label for="name">Usuario</label>  <br/>
+                    <input type="text" name="name" id="registro_name" required>
+
+                    <label for="contraseña" id="show">Contraseña</label> <i class="icono-eye">=</i>
+                    <input type="text" name="contraseña" id="pasword" required>
+
+                    <input type="submit" value="Iniciar sesion">
+                    </div>
+                </form>
+
+                <div id="ingresar">
+
+                </div>
+            </div>
+              </aside>
+               <!--
+                   Crear cuenta
+            <div class="formulario">
+                <h3>Crea tu cuenta</h3>
+                <form action="#">
+                    <input type="text" placeholder="Usario" required>
+                    <input type="email" placeholder="Correo" required>
+                    <input type="password" placeholder="contraseña" required>
+                    <input type="submit" value="Registrarse" required>
+                </form>
+            </div>
+
+
+          <div class="pasword">
+              <a href="#">olvide mi contraseña</a>
+          </div>
+        -->
+          </div>
+          <div class="clear"></div>
+              
+          
+
+    </section>
+   <script src="JS/jquery-3.5.1.min.js"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="JS/main.js"></script>
 </body>
 </html>

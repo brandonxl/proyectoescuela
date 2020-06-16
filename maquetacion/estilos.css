@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+.clear{
+    float: none;
+    clear: both;
+
+}
+
+#general{
+    width: 70%;
+    margin: 0px auto;
+    padding: 25px;
+    background: #eee;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+#logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    float: left;
+    width: 380px;
+    height: 75px;
+    background: rgb(80, 173, 80);
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+#menu{
+    background:#333;
+    width: 100%;
+ 
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#menu ul{
+    line-height: 45px;
+  
+}
+
+#menu ul li {
+    display: inline-block;
+    transition: all 300ms;   
+}
+#menu ul li:hover{
+    background: green;
+}
+#menu a{
+    display: block;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+p{
+text-align: justify;
+}
+.contenedor{
+    
+  position: relative;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    padding: 40px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+    
+    
+    
+}
+
+.contenedor .toggle{
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;  
+}
+
+
+.contenedor h3{
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1px;
+    padding-top: 15px;
+}
+.contenedor input[type="text"],
+.contenedor input[type="email"],
+.contenedor input[type="password"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    
+    border: none;
+    border-radius: 2px;
+   
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 20px 0;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+.contenedor input[type="submit"]{
+    background: rgb(57, 190, 190);
+    color: black;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .5 ease;
+}
+
+.contenedor input[type="submit"]:hover{
+    background: #0075d9;
+}
+
+.contenedor .pasword{
+    background: #0075d9;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contenedor .pasword a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+   text-transform: uppercase;
+   
+}
+
+.contenedor .formulario{
+    display: none;
+}
+
+.contenedor .formulario:nth-child(2){
+    display: block;
+}
+
+.contenedor{
+    width: 30%;
+    float: right
+       
+}
+
+#usuario{
+    font-size: 25px;
+    float: right;
+    
+}
+
+.posicion-fija{
+    width: 51%;
+}
+
+#posicion{
+    width: 60%;
+}
