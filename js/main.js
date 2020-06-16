@@ -1,7 +1,7 @@
 
 //lOGIN FALSO
 
-/*
+
 $(document).ready(function(){
 
 $(".contenedor form").submit(function(){
@@ -34,4 +34,4 @@ if(form_name != null && form_name!= "undefined"){
 
 
 });
-*/
+
