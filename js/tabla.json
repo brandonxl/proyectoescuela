@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nombre": "roberto",
+        "puntos": 525,
+        "nacionalidad": "mexicano"
+    },
+    {
+        "id":2,
+        "nombre": "maria",
+        "puntos": 345,
+        "nacionalidad": "peruano"
+    },
+    {
+        "id": 3,
+        "nombre": "rebeca",
+        "puntos": 456,
+        "nacionalidad": "argentina"
+    }
+ ]

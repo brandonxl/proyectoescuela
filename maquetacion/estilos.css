@@ -62,14 +62,16 @@ text-align: justify;
 }
 .contenedor{
     
-  position: relative;
-    width: 100%;
-    max-width: 500px;
+    position: absolute;
+    width: 80%;
+    max-width: 350px;
     border-radius: 5px;
     padding: 40px;
     background: #333;
     color: white;
-    margin-top: 20px;
+    margin-top: 60px;
+    top: 150px;
+    right: 263px;
     
     
     
@@ -178,4 +180,38 @@ h3{
 
 #posicion{
     width: 60%;
+}
+
+#contenido-oculto{
+    display: none;
+}
+
+#welcome{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img{
+    width: 60%;
+    height: 400px;
+}
+
+#myList{
+    border: 1px solid black;
+    font-size: 15px;
+    width: 50%;
+}
+
+#theBest{
+    margin-bottom: 20px;
+}
+
+th{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+#users{
+    margin-bottom: 20px;
 }

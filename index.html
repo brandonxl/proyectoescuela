@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos Css-->
     <link rel="stylesheet" type="text/css" href="maquetacion/estilos.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <title>Inicio</title>
 </head>
 <body>
@@ -26,7 +28,8 @@
                 </ul>
             </nav>
         </header>
-          <div class="clear"></div>
+          <div class="clear"></div> 
+
         <article id="posicion">
             <div>
               <h2>Por que oling?</h2>
@@ -35,13 +38,9 @@
               </p>
             </div>
         </article>
-
-
-        
+ 
          <div id="usuario">
-           <p>
-            
-           </p>
+           <p> </p>
          </div>
 
             <aside id="registro-de-sesion">
@@ -59,7 +58,7 @@
                     <label for="contraseña" id="show">Contraseña</label> <i class="icono-eye">=</i>
                     <input type="text" name="contraseña" id="pasword" required>
 
-                    <input type="submit" value="Iniciar sesion">
+                    <input type="submit" id="mostrar" value="Iniciar sesion">
                     </div>
                 </form>
 
@@ -88,11 +87,50 @@
           </div>
           <div class="clear"></div>
               
+          <div id="contenido-oculto"> <!--cuando el usuario se registre cargara todo este contenido-->
+
+        
+                <h3 id="welcome">Bienvenido a la comunidad Oling</h3>
+               
+                <div>
+                  <h3 id="theBest">Los mejores 10</h3>
+                  <ul id="myList">
+
+                  </ul>
+                <!--tabla-->
+                <div id="container">
+                  <h3 id="users">Usuarios destacados</h3>
+                  <div id="tabla">
+                    <table id="listado_usuarios">
+                      <thead>
+                        <tr>
+                          <th scope="col">id</th>
+                          <th scope="col">nombre</th>
+                          <th scope="col">puntos</th>
+                          <th scope="col">nacionalidad</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+
+
+
+                </div>
+                
+                
+      
           
 
     </section>
-   <script src="JS/jquery-3.5.1.min.js"></script>
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="JS/tabla.json"></script>
+    <script src="JS/jquery-3.5.1.min.js"></script>
     <script src="JS/main.js"></script>
+
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
 </body>
 </html>
