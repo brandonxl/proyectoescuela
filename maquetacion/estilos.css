@@ -204,14 +204,55 @@ img{
 }
 
 #theBest{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-th{
-    padding-left: 15px;
-    margin-bottom: 10px;
+.pais{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 50px;
+   
+}
+
+#clanes{
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+    border: 1px solid black;
+    padding: 7px;
+    margin-bottom: 25px;
+    
+    
 }
 
 #users{
-    margin-bottom: 20px;
+    width: 350px;
+    height: 350px;
+    margin-top: 40px;
+    border: 1px solid black;
+    padding: 7px;
+    margin-top: 20px;
 }
+
+h5{
+    margin-top: 40px;
+}
+
+#testimonios{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.aprobacion{
+    width: 40%;
+}
+
+#introduccion{
+    display: block;
+    text-align: right;
+}
+

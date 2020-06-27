@@ -21,48 +21,39 @@ if(form_name != null && form_name!= "undefined"){
         location.reload();
     });
 }
-//usuarios json
-
-var usuarios_destacados = [
-    {id: 1, nombres: 'Alex', Nacionalidad: 'Mexicano', Puntos: 325},
-    {nombres: 'Maria', Nacionalidad: 'Peruano', Puntos: 225},
-    {nombres: 'Jorge', Nacionalidad: 'Colombiano', Puntos: 175},
-    {nombres: 'Karen', Nacionalidad: 'Argentino', Puntos: 150},
-    {nombres: 'Antony', Nacionalidad: 'Mexicano', Puntos: 115},
-    {nombres: 'Paco', Nacionalidad: 'Mexicano', Puntos: 325},
-    {nombres: 'Rebeca', Nacionalidad: 'Peruano', Puntos: 225},
-    {nombres: 'Fernando', Nacionalidad: 'Colombiano', Puntos: 175},
-    {nombres: 'Karen', Nacionalidad: 'Argentino', Puntos: 150},
-    {nombres: 'Ruben', Nacionalidad: 'Mexicano', Puntos: 115}
+//Clanes
+var teams = [
+    {id: "1-", nombre: 'Los matematicos ',Pais: 'Argentina'},
+    {id: "2-", nombre: 'Indestructibles ',Pais: 'Venezuela'},
+    {id: "3-", nombre: 'Los Picazos ',Pais: 'Uruguay'},
+    {id: '4-',nombre: 'Imparables ' ,Pais: 'Chile'},
+    {id: '5-',nombre: 'Revolucionarios ', Pais: 'Mexico'},
+    {id: '6-',nombre:'Los Parceros ', Pais: 'Colombia'}
 ];
-
-var nombres_usuarios = usuarios_destacados.map(function(user){
- return user.nombres
-});
-var lista = $("#myList");
-var newList = document.createElement("li");
-newList.append(nombres_usuarios)
-lista.append(newList);
-
-//json
-var tabla = $("#listado_usuarios tbody");
-function cargarUsuarios(){
-    fetch('tabla.json')
-    .then(respuesta => respuesta.json() )
-    .then(respuesta =>{
-        tabla.forEach(usuario =>{
-            const row = document.createElement('tr');
-            row.innerHTML += `
-            <td>${usuario.id}</td>
-            <td>${usuario.nombre}</td>
-            <td>${usuario.puntos}</td>
-            <td>${usuario.nacionalidad}</td>
-            `;
-            tabla.append(row);
-        })
-    })
-}
-
+$("#clanes").html(
+    teams[0].id + teams[0].nombre + teams[0].Pais +"<hr/>"+
+    teams[1].id +teams[1].nombre + teams[1].Pais +"<hr/>"+
+    teams[2].id +teams[2].nombre + teams[2].Pais +"<hr/>"+
+    teams[3].id +teams[3].nombre + teams[3].Pais +"<hr/>"+
+    teams[4].id +teams[4].nombre + teams[4].Pais +"<hr/>"+
+    teams[5].id +teams[5].nombre + teams[5].Pais +"<br/>" 
+);
+var users = [
+    {id: "1-", nombre: 'Rebeca ',Pais: 'Argentina'},
+    {id: "2-", nombre: 'Tony ',Pais: 'Mexico'},
+    {id: "3-", nombre: 'Karen ',Pais: 'Chile'},
+    {id: '4-',nombre: 'Emiliano ' ,Pais: 'Panama'},
+    {id: '5-',nombre: 'Erika ', Pais: 'Bolivia'},
+    {id: '6-',nombre:'Jorge ', Pais: 'Honduras'}
+];
+$("#users").html(
+    users[0].id + users[0].nombre + teams[0].Pais +"<hr/>"+
+    teams[1].id + users[1].nombre + teams[1].Pais +"<hr/>"+
+    teams[2].id + users[2].nombre + teams[2].Pais +"<hr/>"+
+    teams[3].id + users[3].nombre + teams[3].Pais +"<hr/>"+
+    teams[4].id + users[4].nombre + teams[4].Pais +"<hr/>"+
+    teams[5].id + users[5].nombre + teams[5].Pais +"<br/>" 
+);
 
 });
 
