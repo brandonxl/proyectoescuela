@@ -54,6 +54,5 @@ $("#users").html(
     teams[4].id + users[4].nombre + teams[4].Pais +"<hr/>"+
     teams[5].id + users[5].nombre + teams[5].Pais +"<br/>" 
 );
-
 });
 
